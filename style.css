@@ -1,0 +1,56 @@
+body{
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.mainbox{
+    height: 200px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+
+}
+/*mainbox div diye mainbox div er under er baki 7 ta div ke define kora hoyeche*/
+.mainbox div{ 
+    
+    flex-grow: 1;
+}
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
+.red{
+    background-color: red;
+}
+.black{
+    background-color: black;
+}
+.cont{
+    position: relative;
+    /* border: 5px solid cadetblue; */
+}
+.triangle{
+    border-left: 120px solid white;
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    position: absolute;
+    top: 0;
+    
+}
+.star{
+    font-size: 70px;
+    color: red;
+    position: absolute;
+    top: 61px;
+    left: 9px;
+}
+.bird{
+    color: yellow;
+    font-size: 50px;
+    top: 75px;
+    left: 22px;
+}
